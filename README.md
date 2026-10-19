@@ -10,8 +10,9 @@ ComfyUI 在 DeepSeek Harness 里的生产包：环境体检、零依赖 API 客�
 # 本地开发
 dsh plugin --profile desktop add link:/absolute/path/to/dsh-comfyui
 
-# 发布后
-dsh plugin --profile desktop add @jojonadam/dsh-comfyui
+# 从 npm
+dsh plugin --profile web add @jojonadam/dsh-comfyui        # Web 版
+dsh plugin --profile desktop add @jojonadam/dsh-comfyui    # 桌面版
 ```
 
 ## 30 秒上手

@@ -58,6 +58,8 @@ node test/provider.test.mjs
 python3 skills/comfyui-studio/scripts/comfy_client.py --help
 ```
 
+实机验证：ComfyUI 0.41.0 · Apple M5 16GB · MPS，SD1.5 512×512 / 20 步 / cfg 7 / euler，三次中位数 **11.7s**（10.4–15.1s，2026-10-19）。
+
 ## 品牌
 
 JOJO & Adam · <https://jojo-adam.com>

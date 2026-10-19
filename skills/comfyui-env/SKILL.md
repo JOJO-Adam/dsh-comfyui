@@ -56,6 +56,18 @@ license: MIT
 - 统一内存被系统占用时表现像“显存不足”，先看活动监视器；
 - 首次加载模型很慢是正常的，不是卡死。
 
+### SaveImage 报 `Operation not permitted` / `PermissionError`
+
+- **现象**：前面节点全部执行成功，最后 `SaveImage` 写文件失败，队列里显示 error。
+- **原因**：ComfyUI 进程对目标输出目录没有写权限（被沙箱、容器或受限用户启动时常见）。
+- **处置**：用可写目录重启，不要为了绕过保存去删 `SaveImage` 节点：
+
+  ```bash
+  python main.py --output-directory <可写目录> --temp-directory <可写目录>
+  ```
+
+  或让 ComfyUI 以有权限的普通用户身份、在沙箱外启动。
+
 ## 3. 体检输出怎么读
 
 `doctor` 会打印：

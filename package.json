@@ -1,0 +1,53 @@
+{
+  "name": "@jojonadam/dsh-comfyui",
+  "version": "0.1.0",
+  "description": "ComfyUI production pack for DeepSeek Harness: env doctor, API client, workflow patterns, measured parameter matrices, failure tree, consistency and batch. 本地出图 · 零依赖客户端 · 实测参数。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "comfyui",
+    "stable-diffusion",
+    "image-generation",
+    "workflow"
+  ],
+  "license": "MIT",
+  "author": "JOJO & Adam",
+  "homepage": "https://jojo-adam.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOJO-Adam/dsh-comfyui.git"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2",
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/JOJO-Adam/dsh-comfyui/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

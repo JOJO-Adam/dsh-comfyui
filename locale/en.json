@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH ComfyUI Production Pack",
+    "description": "Production pack for ComfyUI: environment checks, a zero-dependency API client, measured parameters and broken-image triage."
+  }
+}

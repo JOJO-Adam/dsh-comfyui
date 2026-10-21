@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH ComfyUI 生产包",
+    "description": "ComfyUI 生产包：环境体检、零依赖 API 客户端、实测参数与崩图排查。"
+  }
+}

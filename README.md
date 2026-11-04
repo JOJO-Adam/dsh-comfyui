@@ -33,16 +33,40 @@ python3 skills/comfyui-studio/scripts/comfy_client.py submit \
 
 ## 包含
 
+**执行层（本插件自带脚本）**
+
 | 技能 | 用途 |
 |---|---|
-| `comfyui-studio` | 总入口：体检、提交、取图、路由（含客户端脚本与示例工作流） |
-| `comfyui-env` | 连不上、模型缺失、节点缺失、OOM、MPS 问题 |
-| `comfyui-production-sop` | 六层故障模型与生产流程 |
-| `comfyui-prompt-engineering` | 提示词结构、失效模式、权重坑 |
-| `comfyui-workflow-architecture` | 高清修复、局部重绘、管线改造 |
-| `comfyui-parameter-tuning` | CFG/步数/分辨率/采样器实测矩阵 |
-| `comfyui-troubleshooting` | 黑图、花图、主体重复、彩边、OOM 排查树 |
-| `comfyui-consistency-batch` | 角色一致、固定前缀、队列批量 |
+| `comfyui-studio` | 总入口：体检、提交工作流、取图、六域路由（含 `scripts/comfy_client.py` 与示例 workflow） |
+| `comfyui-env` | 服务连不上、模型不显示、显存不够、MPS 问题 |
+
+**标准与流程**
+
+| 技能 | 用途 |
+|---|---|
+| `comfyui-sop` | 标准实务：控制层真存在性、工具名表、反编造红线（单一真相源） |
+| `comfyui-workflow-design` | 从零设计工作流：节点选型、接线纪律、格式校验 |
+| `comfyui-workflow-upgrade` | 改造：高清修复、局部重绘、denoise 取值、常见接错线 |
+| `comfyui-param-tuning` | 参数实测矩阵：CFG / 步数 / 分辨率 / 采样器耗时 |
+| `comfyui-prompt-structure` | 提示词结构：句子优于关键词、四种失效模式 |
+| `comfyui-batch-consistency` | 构图一致 vs 身份一致、批量队列、seed 不是身份锁 |
+| `comfyui-failure-tree` | 崩图排查树：黑图/花图/主体重复/彩边/OOM → 层 → 动作 |
+| `comfyui-production-sop` | 生产 SOP：六层故障模型、SD1.5 安全区间 |
+| `comfyui-generation-exec` | 提交队列、跟进度、取回真实结果 |
+| `comfyui-mcp-bridge` | MCP 桥接、工具名对齐、启动排障 |
+| `comfyui-model-management` | 模型/LoRA 清单、版本核对 |
+| `comfyui-handoff` | 资产交接：交付文档 + 缺口清单 |
+| `comfyui-hardware-audit` | 硬件审计：探针 → 动态能力卡 → 量化降级 |
+
+**五条产线**
+
+| 技能 | 用途 |
+|---|---|
+| `comfyui-video-pipeline` | T2V / I2V / 动作迁移 / 多镜头 / 补帧 |
+| `comfyui-audio-pipeline` | 配乐 / 音效 / 剪辑节点 / 音视频合流 |
+| `comfyui-3d-pipeline` | 图生 3D / 贴图 / 网格清理 / GLB 出货 |
+| `comfyui-training-lora` | LoRA 训练、数据集、角色一致性 |
+| `comfyui-vision-utils` | 去背景 / 修复 / 放大 / 分割 / 打标 |
 
 ## 设计边界
 

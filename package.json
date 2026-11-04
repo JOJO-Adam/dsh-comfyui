@@ -1,7 +1,7 @@
 {
   "name": "@jojonadam/dsh-comfyui",
-  "version": "0.1.2",
-  "description": "ComfyUI production pack for DeepSeek Harness: env doctor, API client, workflow patterns, measured parameter matrices, failure tree, consistency and batch. 本地出图 · 零依赖客户端 · 实测参数。",
+  "version": "0.2.0",
+  "description": "ComfyUI production pack for DeepSeek Harness: env doctor, API client, workflow design/upgrade, measured parameter matrices, failure tree, batch consistency, generation/handoff, MCP bridge, model management, plus video/audio/3D/LoRA/vision pipelines.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

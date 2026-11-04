@@ -1,15 +1,13 @@
 ---
-name: comfyui-workflow-architecture
-description: "工作流改造手册：从官方默认图出发的四种生产管线、决定高清修复与局部重绘成败的 denoise 取值，以及每种改造最常见的接错线方式。"
-whenToUse: "ComfyUI 工作流 / 改造 / hires fix / 高清修复 / 局部重绘 / 接错线 时"
+name: comfyui-workflow-upgrade
+description: "工作流改造手册：从官方默认图出发的四种生产管线、高清修复与局部重绘的 denoise 取值、常见接错线。"
+whenToUse: "ComfyUI 出图 / 工作流 / 批量 / 排障 / 参数 / 视频音频 3D 训练 时"
 license: MIT
 ---
 
-
 # 工作流改造手册
 
-> DSH 执行层（跑 API、提交工作流、取图）：见 `comfyui-studio` 技能。
-
+> **DSH 适配**：本技能来自 WorkBuddy 专家团版。「成员/派单/回执」= 你的分步执行与交付记录，「本团」= 你。单 agent 场景下纪律不变。
 
 ## 一 · 为什么不给现成 json
 

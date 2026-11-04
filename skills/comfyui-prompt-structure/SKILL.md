@@ -1,15 +1,13 @@
 ---
-name: comfyui-prompt-engineering
-description: "Stable Diffusion 提示词结构：句子结构优于关键词堆砌、四种失效模式、权重语法的不确定性，以及为什么负面词救不回错误的 CFG。"
-whenToUse: "ComfyUI 提示词 / prompt / 负面词 / 权重 / 出图不听描述 时"
+name: comfyui-prompt-structure
+description: "提示词结构手册：句子结构优于关键词堆砌、四种失效模式、权重语法的不确定性。"
+whenToUse: "ComfyUI 出图 / 工作流 / 批量 / 排障 / 参数 / 视频音频 3D 训练 时"
 license: MIT
 ---
 
-
 # 提示词结构手册
 
-> DSH 执行层（跑 API、提交工作流、取图）：见 `comfyui-studio` 技能。
-
+> **DSH 适配**：本技能来自 WorkBuddy 专家团版。「成员/派单/回执」= 你的分步执行与交付记录，「本团」= 你。单 agent 场景下纪律不变。
 
 ## 一 · 结构优先，不是堆词
 

@@ -17,7 +17,7 @@ apply({
 })
 
 const list = await registered.list()
-assert.equal(list.length, 8, `expected 8 skills, got ${list.length}`)
+assert.equal(list.length, 20, `expected 20 skills, got ${list.length}`)
 
 const studio = list.find((item) => item.name === 'comfyui-studio')
 assert.ok(studio, 'comfyui-studio not discovered')

@@ -1,6 +1,6 @@
 {
   "name": "@jojonadam/dsh-comfyui",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ComfyUI production pack for DeepSeek Harness: env doctor, API client, workflow design/upgrade, measured parameter matrices, failure tree, batch consistency, generation/handoff, MCP bridge, model management, plus video/audio/3D/LoRA/vision pipelines.",
   "type": "module",
   "main": "lib/index.js",
@@ -17,7 +17,8 @@
     "icon.svg",
     "README.md",
     "LICENSE",
-    "locale"
+    "locale",
+    "README.en.md"
   ],
   "keywords": [
     "dsh-plugin",

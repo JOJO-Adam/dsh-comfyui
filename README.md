@@ -1,5 +1,8 @@
 # dsh-comfyui · JOJO&Adam
 
+> English: [README.en.md](README.en.md)
+
+
 ComfyUI 在 DeepSeek Harness 里的生产包：环境体检、零依赖 API 客户端、工作流改造、实测参数矩阵、崩图排查、一致性与批量。
 
 不是“教你怎么点 ComfyUI”，是让 agent 真的能把图跑出来、把坏图查明白。
